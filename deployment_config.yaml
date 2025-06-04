@@ -1,0 +1,6 @@
+name: AutoGPT Marathon Times Analyst
+summary: An AutoGPT agent that leverages LangChain tools (web search, file management, CSV processing, and web Q&A) to find and analyze winning marathon times, specifically focusing on the Boston Marathon.
+environment_variables:
+  - name: GOOGLE_API_KEY
+    value: <your_google_api_key>
+    description: The API key for accessing Google Gemini models via `langchain-google-genai`.
