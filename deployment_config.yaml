@@ -1,0 +1,6 @@
+name: Marathon Times AutoGPT Agent
+summary: An AutoGPT agent that finds winning Boston Marathon times for the past 5 years (ending in 2025) and generates a table of the year, name, country of origin, and times. It leverages LangChain primitives, including LLMs, PromptTemplates, VectorStores, Embeddings, and various tools like web search, file management, CSV processing, and web page Q&A.
+environment_variables:
+  - name: GOOGLE_API_KEY
+    value: <your_google_api_key>
+    description: The API key required for authenticating with Google Gemini, used by the langchain-google-genai library for chat models and embeddings.
