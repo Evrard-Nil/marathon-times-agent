@@ -1,0 +1,6 @@
+name: Marathon Times Finder
+summary: An AutoGPT agent that finds winning Boston Marathon times for the past 5 years and generates a structured table of the results.
+environment_variables:
+  - name: GOOGLE_API_KEY
+    value: <your_google_api_key>
+    description: The Google API key to use for authenticating with Google Gemini models.
