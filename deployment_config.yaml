@@ -1,0 +1,6 @@
+name: Marathon Times AutoGPT Agent
+summary: An AutoGPT agent that uses LangChain primitives (LLMs, PromptTemplates, VectorStores, Embeddings, Tools) to find winning marathon times for the past 5 years and generate a structured table. It leverages web browsing, file management, and CSV processing tools.
+environment_variables:
+  - name: GOOGLE_API_KEY
+    value: <your_google_api_key>
+    description: The API key for authenticating with Google Gemini's API, used for the language model.
